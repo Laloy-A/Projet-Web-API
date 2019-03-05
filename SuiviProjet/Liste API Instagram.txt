@@ -1,0 +1,140 @@
+Liste API Instagram : 
+
+
+GET/users/self
+
+  "data"
+    - "id"
+    - "username"
+    - "full_name"
+    - "profile_picture"
+    - "bio"
+    - "website"
+    - "is_business"
+    - "counts"
+        - "media"
+        - "follows"
+        - "followed_by"
+ 
+
+
+GET/users/self/media/recent
+
+    "data"
+        - "comments"
+            - "count"
+        
+        - "caption"
+            - "created_time"
+            - "text"
+            - "from"
+                - "username"
+                - "full_name"
+                - "type"
+                - "id"
+            
+            - "id"
+        
+        - "likes"
+            - "count"
+        
+        - "link"
+        - "user"
+            - "username"
+            - "profile_picture"
+            - "id"
+        
+        - "created_time"
+        - "images"
+            - "low_resolution"
+                - "url"
+                - "width"
+                - "height"
+            
+            - "thumbnail"
+                - "url"
+                - "width"
+                - "height"
+            
+            - "standard_resolution"
+                - "url"
+                - "width"
+                - "height"
+            
+        - "type"
+        - "users_in_photo"
+        - "filter"
+        - "tags"
+        - "id"
+        - "location"
+            - "latitude"
+            - "longitude"
+            - "id"
+            - "street_address"
+            - "name"
+        
+        - "videos"
+            - "low_resolution"
+                - "url"
+                - "width"
+                - "height"
+            
+            - "standard_resolution"
+                - "url"
+                - "width"
+                - "height"
+            
+        - "comments"
+            - "count"
+        
+        - "caption"
+        - "likes"
+            - "count"
+        
+        - "link"
+        - "created_time"
+        - "images"
+            - "low_resolution"
+                - "url"
+                - "width"
+                - "height"
+            
+            - "thumbnail"
+                - "url"
+                - "width"
+                - "height"
+            
+            - "standard_resolution"
+                - "url"
+                - "width"
+                - "height"
+            
+        - "type"
+        - "users_in_photo"
+        - "filter"
+        - "tags"
+        - "id"
+        - "user"
+            - "username"
+            - "full_name"
+            - "profile_picture"
+            - "id"
+        
+        - "location": null
+
+
+
+
+GET/media/media-id/comments
+
+    "data"
+        - "created_time"
+        - "text"
+        - "from"
+            - "username"
+            - "profile_picture"
+            - "id"
+            - "full_name"
+        
+        - "id"
+        
