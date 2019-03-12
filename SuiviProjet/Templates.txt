@@ -1,6 +1,6 @@
 TEMPLATES BOOTSTRAP
 
-https://startbootstrap.com/previews/grayscale/
+--> https://startbootstrap.com/previews/grayscale/
 
 https://gt3themes.com/bootstrap/timber-free-one-page-bootstrap-template/
 
