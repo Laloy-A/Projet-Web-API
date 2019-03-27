@@ -14,7 +14,7 @@ function initialiser() {
 	var options = {
 		// center: centre(points),
 		center: {lat: 48.018296, lng: 0.160859},
-		zoom: 8,
+		zoom: 13,
 		mapTypeId: google.maps.MapTypeId.HYBRID
 	};
 
