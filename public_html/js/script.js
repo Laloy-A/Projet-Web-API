@@ -1,6 +1,7 @@
 var carte;
 
 function initialiser() {
+	console.log("initialisation");
 	var points = [
 		[48.018296, 0.160859],
 		[48.318296, 0.160859],
@@ -10,8 +11,9 @@ function initialiser() {
 	// console.log(centre(points));
 
 	var options = {
-		center: centre(points),
-		zoom: 19,
+		// center: centre(points),
+		center: points[0],
+		zoom: 16,
 		mapTypeId: google.maps.MapTypeId.HYBRID
 	};
 
