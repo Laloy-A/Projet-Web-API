@@ -135,6 +135,26 @@
   font-size: 1rem;
 }
 
+.map {
+  margin-top: 0rem;
+  margin-left: 15rem;
+}
+
+.meteo {
+  margin-top: 1rem;
+  margin-left: 15rem;
+}
+
+.photos {
+  margin-top: 1rem;
+  /*overflow-x: scroll;*/
+}
+
+.hashtags{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
@@ -191,13 +211,14 @@
   border-color: white;
 }
 
-.about-section p {
+/*.about-section p {
   margin-bottom: 5rem;
-}
+}*/
 
 .projects-section {
-  padding: 5rem 0;
-  padding-top: 5rem;
+  padding: 1rem 0;
+  padding-top: 4rem;
+
 }
 
 .projects-section .featured-text {
@@ -207,13 +228,16 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #6A447F;
+    /*border-left: 0.5rem solid #6A447F;*/
   }
 }
 
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 0.5rem;
   font-size: 90%;
+  border-color: black;
+  background-color: white;
+  color: black;
 }
 
 @media (min-width: 992spx) {
@@ -321,4 +345,5 @@ a:focus, a:hover {
 
 footer {
   padding: 1rem 0;
+  padding-bottom: 1rem;
 }
