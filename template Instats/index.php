@@ -21,9 +21,13 @@
   <!-- Custom styles for this template -->
   <link href="template_bootstrap/css/grayscale.css" rel="stylesheet">
 
+  <!-- Scripts pour la map -->
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="template_bootstrap/js/map.js"></script>
+
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="initialiser_map()">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -42,11 +46,14 @@
   <section id="projects" class="projects-section bg-light">
     <div class="container">
       
-      <div class="map">
+      <!--<div class="map">
         <img class="image" src="template_bootstrap/img/map.jpg"
           height="328px" 
           width="614px"
           alt="une photo">
+      </div>-->
+      <div id="carte" style="width:100%; height:500px">
+        
       </div>
 
       <div class="meteo">
